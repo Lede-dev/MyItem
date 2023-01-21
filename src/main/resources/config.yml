@@ -1,0 +1,22 @@
+
+# Protection scheduler period ticks
+scheduler-period-tick: 5
+
+# Enable drops hologram
+enable-drops-holo: true
+
+# Protect player drop item
+protect-drop-item: true
+
+# Protect item spawn
+protect-spawn-item: true
+
+# Format & Messages - Support Adventure API, Placeholders
+# %myitem_item_display% - get display name of drops
+# %myitem_item_amount% - get amount of drops
+# %myitem_item_owner% - get owner of drops
+# %myitem_item_protection_remain% - get remain protection time of drops
+formats:
+  time-format: "mm:ss"
+  protection-holo: "<white>%myitem_item_display% <green>x%myitem_item_amount% <white>( <yellow>%myitem_item_owner% <white>| <gold>%myitem_item_protection_remain% <white>)"
+  non-protection-holo: "<white>%myitem_item_display% <green>x%myitem_item_amount%"

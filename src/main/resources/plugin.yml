@@ -1,0 +1,6 @@
+name: MyItem
+version: '${version}'
+main: me.lede.myitem.MyItem
+api-version: 1.19
+authors: [ Lede ]
+website: molruexception.com
